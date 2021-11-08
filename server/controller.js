@@ -49,6 +49,11 @@ module.exports = {
     if (!imageURL) {
       imageURL = "../images/benjamin-davies-FiZTaNTj2Ak-unsplash.jpeg";
     }
+
+    if (!saying) {
+      saying = "Keep up the great work!";
+    }
+
     let newBooster = {
       id: globalId,
       saying: saying,
