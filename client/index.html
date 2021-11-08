@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <div class="btn-form-container">
+      <div class="btn-block">
+        <button id="complimentButton">Get a compliment</button>
+        <button id="fortuneButton">Get your fortune</button>
+      </div>
+
+      <form id="form">
+        <legend>Boost of Confidence</legend>
+        <p>Create and submit a confidence booster</p>
+        <input
+          type="text"
+          id="saying"
+          placeholder="Enter your confidence booster here"
+        />
+
+        <input
+          type="text"
+          id="booster-img"
+          placeholder="Paste in an image url"
+        />
+        <button id="form-submission-btn">Add a Booster</button>
+      </form>
+    </div>
+
+    <section id="booster-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>

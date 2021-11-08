@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "saying": "Yes You Can!",
+    "imageURL": "../images/brett-jordan-94GiZLiWD8Y-unsplash.jpeg",
+    "count": 50
+  },
+  {
+    "id": 2,
+    "saying": "Doggo Believes in you!",
+    "imageURL": "../images/marliese-streefland-2l0CWTpcChI-unsplash.jpeg",
+    "count": 800
+  },
+  {
+    "id": 3,
+    "saying": "Always Dream Big!",
+    "imageURL": "../images/randy-tarampi-U2eUlPEKIgU-unsplash.jpeg",
+    "count": 340
+  }
+]
